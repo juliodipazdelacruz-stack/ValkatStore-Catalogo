@@ -21,11 +21,14 @@ Es una sola página (`index.html`), sin pasos de compilación ni dependencias: s
 | Memorias | Promoción de memoria para cada cámara: de regalo o con descuento, con opciones de más capacidad a precio especial. |
 | Resumen del pedido | Genera una imagen con el detalle y el total, que se puede copiar o descargar. |
 | Confirmar por WhatsApp | Abre un chat con el resumen del pedido ya escrito. |
+| Compartir con imagen | En celulares que lo permiten, abre el menú de compartir con la imagen del resumen y el texto ya cargados; el cliente elige WhatsApp y el chat de la tienda. El botón solo aparece si el navegador soporta compartir archivos. |
 | Transmisión en vivo | Aviso con enlace a la transmisión de TikTok, que se activa o desactiva desde la base de datos. |
 
 Está pensada para celular, que es desde donde entran la mayoría de los clientes.
 
 > **El pedido no se guarda en ningún sistema.** El cliente lo envía por WhatsApp y la venta se registra después en el POS.
+>
+> Los enlaces de WhatsApp solo pueden llevar texto, no imágenes. Por eso hay dos formas de enviar el pedido: **Enviar por WhatsApp** abre directamente el chat de la tienda con el pedido escrito (siempre llega al número correcto), y **Compartir con imagen** adjunta también la imagen, pero el cliente debe elegir el chat.
 
 ---
 
